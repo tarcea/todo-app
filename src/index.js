@@ -6,4 +6,6 @@ import ReactDOM from 'react-dom';
 
 import TodoContainer from './components/TodoContainer';
 import TodosList from './components/TodoContainer';
+import "./App.css"
+
 ReactDOM.render(<TodosList />, document.getElementById('root'));
